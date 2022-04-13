@@ -1,0 +1,28 @@
+.video {
+    width: 400px;
+}
+
+.gridContainer {
+    justify-content: center;
+}
+
+.paper {
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+
+
+@media(max-width: 600px) {
+    .video {
+        width: 400px;
+    }
+
+    .gridContainer {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+}

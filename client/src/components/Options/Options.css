@@ -1,0 +1,37 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridContainer {
+    width: 100%;
+}
+
+.container {
+    width: 600px;
+    margin: 35px 0;
+    padding: 0;
+}
+
+.margin {
+    margin-top: 20px !important;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.paper {
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+
+@media (max-width: 600px) {
+    .gridContainer {
+        flex-direction: column !important;
+    }
+
+    .container {
+        width: 80%;
+    }
+}
